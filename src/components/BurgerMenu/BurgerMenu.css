@@ -1,0 +1,25 @@
+.toggle {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  #hamburguesa {
+    width: 0px;
+    overflow: hidden;
+    transition: all, 1s;
+    background-color: var(--primary);
+    height: 30svh;
+    position: fixed;
+    top: 4rem;
+    display: flex;
+  }
+  
+  #hamburguesa a {
+    color: var(--secondary);
+  }
+  
+  .isOpen {
+    width: 100% !important;
+  }
+  

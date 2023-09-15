@@ -1,0 +1,25 @@
+header {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--secondary);
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 2.5rem;
+}
+
+@media screen and (min-width: 700px) {
+    .logo {
+        height: 2.5rem;
+        margin-left: 1rem;
+    }
+}

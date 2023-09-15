@@ -1,0 +1,42 @@
+.donar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+
+.teaming, .donaciones {
+    gap: 1rem;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.teaming img, .donaciones img {
+    height:10rem;
+    width: 10rem;
+}
+
+@media screen and (min-width: 700px) {
+    .donar-section {
+        min-height: 85svh;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+        height: 80%;
+        padding-top: 3rem;
+    }
+    
+    .teaming, .donaciones {
+        width: 40%;
+        height: 50%;
+        align-items:center;
+    }
+}
